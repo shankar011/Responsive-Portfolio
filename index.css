@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#portfolio, #skills, #contact {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
